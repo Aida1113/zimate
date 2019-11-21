@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* Header start */
+#header{
+padding: 20px 5px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu .menu-right i{
+    margin-right: 8px;
+}
+.menu .logo{
+    flex: 2;
+}
+.menu .nav{
+   flex: 2;
+}
+.menu .nav ul li{
+    display: inline-block;
+    padding: 5px 12px;
+}
+/* Header ENd */
+#Explore{
+    position: relative;
+}
+#Explore .explore-middle{
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    left: 40px;
+    transform: translateY(-50%);
+    color: white;
+}
+#Explore .explore-middle h1{
+font-size: 3.4em;
+margin: 30px 0;
+}
+#Explore .explore-middle span{
+    font-size: 2em;
+}
+#Explore .explore-middle button{
+    padding: 18px 30px;
+    background: transparent;
+    border: 1px solid white;
+color: white;
+    transition: .3s;
+}
+#Explore .explore-middle button:hover{
+background: black;
+color: white;
+border-color: black;
+}
+.wrapper{
+    width: 80%;
+margin: auto;
+}
+#brend .all-brend{
+    display: flex;
+}
+#brend .all-brend .brend-right,
+#brend .all-brend .brend-left{
+    width: 50%;
+}
+#brend .all-brend .brend-left .brend-shop{
+    background: url(foto/01.jpg);
+    background-size: cover;
+    background-position: center;
+}
